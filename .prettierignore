@@ -1,0 +1,48 @@
+# Dependencies
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Build and output
+dist
+build
+out
+coverage
+.tmp
+.cache
+
+# IDE / system files
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Generated assets or data
+public/
+uploads/
+storage/
+reports/
+docs/
+
+# Test artifacts
+coverage/
+*.test.js
+*.spec.js
+
+# Docker / runtime files
+docker/
+*.pid
+
+
